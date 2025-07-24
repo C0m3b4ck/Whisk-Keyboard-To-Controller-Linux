@@ -3,7 +3,7 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 
 # Stable versions
 <br>ver18.py
-**Versions not included here are either unstable or lacking in features**
+<br>**Versions not included here are either unstable or lacking in features**
 
 # Keyboard Key -> Xbox Controller Button / Axis
 <br>**Space**	-> **Button A** (uinput.BTN_A)
