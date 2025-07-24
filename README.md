@@ -1,5 +1,5 @@
 # Whisk-Keyboard-To-Xbox-Controller-Linux
-Keyboard keypresses translated into Xbox Controller movements. Useful when coupled with Xbox emulators, especially if you don't have a controller.
+Keyboard keypresses translated into Xbox Controller movements. Useful when coupled with Xbox emulators, especially if you don't have a controller. Intended for Linux, currently emulates Xbox Controller S.
 
 # Stable versions
 <br>ver18.py - lacks a few keys, rest is hard-coded
@@ -64,10 +64,11 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 
 
 # Notes
-<br>Made and tested on latest Ubuntu version at the time of coding in Python venv
-<br>This was intended for playing Halo: Combat Evolved on Xemu, that is why the buttons are currently tailored to that game. I couldn't find anything like this on Github, so here it is.
+<br>Made and tested on latest Ubuntu version at the time of coding in Python venv. Used with Xemu, with success!
+<br>This was intended for playing Halo: Combat Evolved on Xemu, that is why the default buttons are currently tailored to that game. I couldn't find anything like this on Github, so here it is.
 
 # Roadmap
-* Add key customization from config file
-* Add more keys (will happen as I progress in the game and need them)
-
+* Add other Xbox controllers
+***Done from roadmap***
+* Added key customization from config file
+* Added more keys (Xbox Controller S)
