@@ -2,7 +2,8 @@
 Keyboard keypresses translated into Xbox Controller movements. Useful when coupled with Xbox emulators, especially if you don't have a controller.
 
 # Stable versions
-<br>ver18.py
+<br>ver18.py - lacks a few keys, rest is hard-coded
+<br>ver21.py - allows for loading custom keymap from whisk_keymap.conf, if not found - loads the hard-coded keys
 <br>**Versions not included here are either unstable or lacking in features**
 
 # Default Keyboard/Mouse Input	Virtual Xbox Controller Button / Axis	Notes
