@@ -55,12 +55,12 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 <br>**python3 -m venv yourvenv**
 2. Activate the venv:
 <br>**source yourvenv/bin/activate**
-3. Make sure you have *requirements.txt* in an accessible directory - you can get it <a href="https://github.com/C0m3b4ck/Whisk-Keyboard-To-Xbox-Controller-Linux/blob/main/Build/requirements.txt"> here! </a> Then run:
+3. Make sure you have *requirements.txt* in an accessible directory - you can get it in a Build folder (like XboxControllerS/Build). <br>Then run:
 <br>**pip install -r requirements.txt**
 4. Keep the venv as long as you want to use my script. To activate it another time, run:
 <br>**source yourvenv/bin/activate**
 
-*For more, check out* <a href="https://github.com/C0m3b4ck/Whisk-Keyboard-To-Xbox-Controller-Linux/blob/main/Build/"> Build folder </a>
+*For more, check out* **instructions.txt** in any Build folder </a>
 
 
 # Notes
