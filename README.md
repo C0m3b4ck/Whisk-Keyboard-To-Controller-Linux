@@ -30,6 +30,22 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 <br>                        - **D = X** = 255 (right)
 <br>                        When key released, axis returns to neutral 128
 
+# Build
+Requirements:
+**Python** (tested on 3.13)
+Instructions:
+1. Make your venv:
+**python3 -m venv yourvenv**
+2. Activate the venv:
+**source yourvenv/bin/activate**
+3. Make sure you have *requirements.txt* in an accessible directory - you can get it <a href="https://github.com/C0m3b4ck/Whisk-Keyboard-To-Xbox-Controller-Linux/blob/main/Build/requirements.txt"> here! </a> Then run:
+**pip install -r requirements.txt**
+4. Keep the venv as long as you want to use my script. To activate it another time, run:
+**source .venv/bin/activate**
+
+*For more, check out* <a href="https://github.com/C0m3b4ck/Whisk-Keyboard-To-Xbox-Controller-Linux/blob/main/Build/"> Build folder </a>
+
+
 # Notes
 Made this intended for playing Halo: Combat Evolved on Xemu, that is why the buttons are currently tailored to that game.
 
