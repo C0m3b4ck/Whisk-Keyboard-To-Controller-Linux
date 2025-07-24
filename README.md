@@ -71,6 +71,6 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 
 # Roadmap
 * Add other Xbox controllers
-***Done from roadmap***
+<br>***Done from roadmap***
 * Added key customization from config file
 * Added more keys (Xbox Controller S)
