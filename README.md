@@ -6,7 +6,7 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 **Versions not included here are either unstable or lacking in features**
 
 # Keyboard Key -> Xbox Controller Button / Axis
-<br>Space	**->** Button A (uinput.BTN_A)
+<br>Space	-> Button A (uinput.BTN_A)
 <br>B	-> Button B (uinput.BTN_B)
 <br>X	-> Button X (uinput.BTN_X)
 <br>Y	-> Button Y (uinput.BTN_Y)
@@ -23,4 +23,17 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 <br>Left Mouse Button	-> Right Trigger (uinput.ABS_RZ)
 <br>Middle Mouse Button	-> Left Trigger (uinput.ABS_Z)
 <br>Right Mouse Button -> BTN_MODE (Special button) (uinput.BTN_MODE)
-<br>W/S/A/D	-> Left Stick X and Y axes (uinput.ABS_X, uinput.ABS_Y) with:
+<br>W/S/A/D	-> Left Stick X and Y axes (uinput.ABS_X, uinput.ABS_Y) with:                        
+<br>                        - W = Y = 0 (up)
+<br>                        - S = Y = 255 (down)
+<br>                        - A = X = 0 (left)
+<br>                        - D = X = 255 (right)
+<br>                        When key released, axis returns to neutral 128
+
+# Notes
+Made this intended for playing Halo: Combat Evolved on Xemu, that is why the buttons are currently tailored to that game.
+
+# Roadmap
+* Add key customization from config file
+* Add more keys
+
