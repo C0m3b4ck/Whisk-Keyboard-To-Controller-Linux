@@ -6,8 +6,8 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 **Versions not included here are either unstable or lacking in features**
 
 # Keyboard Key -> Xbox Controller Button / Axis
-<br>Space	-> Button A (uinput.BTN_A)
-<br>B	-> Button B (uinput.BTN_B)
+<br>**Space**	-> **Button A** (uinput.BTN_A)
+<br>**B**	-> **Button B** (uinput.BTN_B)
 <br>X	-> Button X (uinput.BTN_X)
 <br>Y	-> Button Y (uinput.BTN_Y)
 <br>Q	-> Left Stick Click (uinput.BTN_THUMBL)
