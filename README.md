@@ -5,30 +5,45 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 <br>ver18.py
 <br>**Versions not included here are either unstable or lacking in features**
 
-# Keyboard Key -> Xbox Controller Button / Axis
-<br>**Space**	-> **Button A** (uinput.BTN_A)
-<br>**B**	-> **Button B** (uinput.BTN_B)
-<br>**X**	-> **Button X** (uinput.BTN_X)
-<br>**Y**	-> **Button Y** (uinput.BTN_Y)
-<br>**Q**	-> **Left Stick Click** (uinput.BTN_THUMBL)
-<br>**Z**	-> **Right Stick Click** (uinput.BTN_THUMBR)
-<br>**E**	-> **Left Bumper** (uinput.BTN_TL)
-<br>**R**	-> **Right Bumper** (uinput.BTN_TR)
-<br>**Enter**	-> **Start Button** (uinput.BTN_START)
-<br>**Backspace**	-> **Select Button** (uinput.BTN_SELECT)
-<br>**Arrow Up** -> **D-Pad Up** (uinput.BTN_DPAD_UP)
-<br>**Arrow Down** -> **D-Pad Down** (uinput.BTN_DPAD_DOWN)
-<br>**Arrow Left**	-> **D-Pad Left** (uinput.BTN_DPAD_LEFT)
-<br>**Arrow Right**	-> **D-Pad Right** (uinput.BTN_DPAD_RIGHT)
-<br>**Left Mouse Button**	-> **Right Trigger** (uinput.ABS_RZ)
-<br>**Middle Mouse Button**	-> **Left Trigger** (uinput.ABS_Z)
-<br>**Right Mouse Button** -> **BTN_MODE** (Special button) (uinput.BTN_MODE)
-<br>**W/S/A/D**	-> **Left Stick X and Y axes** (uinput.ABS_X, uinput.ABS_Y) with:                        
-<br>                        - **W = Y** = 0 (up)
-<br>                        - **S = Y** = 255 (down)
-<br>                        - **A = X** = 0 (left)
-<br>                        - **D = X** = 255 (right)
-<br>                        When key released, axis returns to neutral 128
+# Keyboard/Mouse Input	Virtual Xbox Controller Button / Axis	Notes
+<br>**Key Mappings: Keyboard / Mouse → Virtual Xbox Controller**
+<br>**Space**	-> **Button A** (uinput.BTN_A)	
+<br>**B**	-> **Button B** (uinput.BTN_B)	
+<br>**X**	-> **Button X** (uinput.BTN_X)	
+<br>**Y** -> **Button Y** (uinput.BTN_Y)	
+<br>**Q** -> **Left Stick Click** (uinput.BTN_THUMBL)	
+<br>**Z**	-> **Right Stick Click** (uinput.BTN_THUMBR)	
+<br>**E**	-> **Left Bumper** (uinput.BTN_TL)	
+<br>**R**	-> **Right Bumper** (uinput.BTN_TR)	
+<br>**Enter**	-> **Start Button** (uinput.BTN_START)	
+<br>**Backspace**	-> **Select Button** (uinput.BTN_SELECT)	
+<br>**Arrow Up**	-> **D-Pad Up** (uinput.BTN_DPAD_UP)	
+<br>**Arrow Down**	-> **D-Pad Down** (uinput.BTN_DPAD_DOWN)	
+<br>**Arrow Left**	-> **D-Pad Left** (uinput.BTN_DPAD_LEFT)	
+<br>**Arrow Right**	-> **D-Pad Right** (uinput.BTN_DPAD_RIGHT)	
+<br>**Left Mouse Button**	-> **Right Trigger** (uinput.ABS_RZ)	Analog trigger (0-255)
+<br>**Middle Mouse Button**	-> **Left Trigger** (uinput.ABS_Z)	Analog trigger (0-255)
+<br>**F**	-> **Guide Button** (uinput.BTN_MODE)	(Formerly mapped to Right Mouse Button)
+<br>**1**	-> **Digital Left Trigger** (uinput.BTN_TL2)	May vary by system/uinput support
+<br>**2** -> **Digital Right Trigger** (uinput.BTN_TR2)	May vary by system/uinput support
+<br>**W/S/A/D** -> 	**Left Stick X and Y axes**. Uses uinput.ABS_X and uinput.ABS_Y.
+<br>	- W = Y-axis: 0 (up)	
+<br>	- S = Y-axis: 255 (down)	
+<br>	- A = X-axis: 0 (left)	
+<br>	- D = X-axis: 255 (right)	
+<br>	When key released, axis returns to neutral 128	
+<br>**Mouse Movement** (REL_X/REL_Y) -> **Right Stick X and Y axes**. Uses uinput.ABS_RX and uinput.ABS_RY. Sensitivity and smoothing are applied.
+
+# Script Hotkeys and Special Script Functions
+<br>**These key combinations control the behavior of the script itself, rather than directly mapping to controller buttons**
+<br>
+<br>**V**	-> **Cycle mouse sensitivity**
+<br>**N**	-> **Toggle cursor lock (grab/ungrab X11 pointer)**
+<br>**Shift + Alt + P**	-> **Toggle cursor centering**
+<br>**Shift + X + Q + S**	-> **EMERGENCY SWITCH-OFF (quits script cleanly)**
+<br>**M**	-> **Toggle mouse smoothing**
+<br>**H**	-> **Show keybinding help**
+<br>**Ctrl + C** -> **Exit script (standard terminal interrupt)**
 
 # Build
 <br>Requirements:
