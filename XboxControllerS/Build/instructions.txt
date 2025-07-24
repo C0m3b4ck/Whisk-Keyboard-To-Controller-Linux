@@ -1,0 +1,13 @@
+Requirements:
+Python (tested on 3.13)
+Instructions:
+
+1. Make your venv:
+  python3 -m venv yourvenv
+2. Activate the venv:
+  source yourvenv/bin/activate
+3. Make sure you have requirements.txt in an accessible directory - you can get it in a Build folder (like XboxControllerS/Build).
+  Then run:
+  pip install -r requirements.txt
+4. Keep the venv as long as you want to use my script. To activate it another time, run:
+  source yourvenv/bin/activate
