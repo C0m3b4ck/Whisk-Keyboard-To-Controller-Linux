@@ -47,7 +47,8 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 
 
 # Notes
-Made this intended for playing Halo: Combat Evolved on Xemu, that is why the buttons are currently tailored to that game.
+<br>Made and tested on latest Ubuntu version at the time of coding in Python venv
+<br>This was intended for playing Halo: Combat Evolved on Xemu, that is why the buttons are currently tailored to that game. I couldn't find anything like this on Github, so here it is.
 
 # Roadmap
 * Add key customization from config file
