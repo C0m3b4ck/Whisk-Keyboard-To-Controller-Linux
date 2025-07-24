@@ -1,3 +1,0 @@
-python-xlib>=0.31
-evdev>=1.4.0
-python-uinput>=0.9
