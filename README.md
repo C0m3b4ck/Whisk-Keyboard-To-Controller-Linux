@@ -5,8 +5,9 @@ Keyboard keypresses translated into Xbox Controller movements. Useful when coupl
 <br>ver18.py
 <br>**Versions not included here are either unstable or lacking in features**
 
-# Keyboard/Mouse Input	Virtual Xbox Controller Button / Axis	Notes
-<br>**Key Mappings: Keyboard / Mouse → Virtual Xbox Controller**
+# Default Keyboard/Mouse Input	Virtual Xbox Controller Button / Axis	Notes
+<br>**Default Key Mappings: Keyboard / Mouse → Virtual Xbox Controller**
+<br>
 <br>**Space**	-> **Button A** (uinput.BTN_A)	
 <br>**B**	-> **Button B** (uinput.BTN_B)	
 <br>**X**	-> **Button X** (uinput.BTN_X)	
