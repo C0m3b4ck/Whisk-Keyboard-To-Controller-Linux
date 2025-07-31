@@ -1,5 +1,5 @@
-# Whisk-Keyboard-To-Xbox-Controller-Linux ![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/Whisk-Keyboard-To-Xbox-Controller-Linux/total)
-Keyboard keypresses translated into Xbox Controller movements. Useful when coupled with Xbox emulators, especially if you don't have a controller. Intended for Linux, currently emulates Xbox Controllers.
+# Whisk-Keyboard-To-Controller-Linux ![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/Whisk-Keyboard-To-Controller-Linux/total)
+Keyboard keypresses translated into controller movements. Useful when coupled with emulators if you don't have a controller. Intended for Linux.
 <br>
 <br>***Currently supporting:***
 <br>*Xbox S Controller* (XboxControllerS folder) - Finished
