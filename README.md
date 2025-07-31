@@ -2,11 +2,13 @@
 Keyboard keypresses translated into Xbox Controller movements. Useful when coupled with Xbox emulators, especially if you don't have a controller. Intended for Linux, currently emulates Xbox Controllers.
 <br>
 <br>***Currently supporting:***
-<br>*Xbox S Controller* (XboxControllerS folder)
-<br>*Xbox 360 Controller* (XboxControllerS folder)
-<br>*Other Xbox Controllers* (XboxControllerS folder)
+<br>*Xbox S Controller* (XboxControllerS folder) - Finished
+<br>*Xbox 360 Controller* (XboxControllerS folder) - Untested
+<br>*Other Xbox Controllers* (XboxControllerS folder) - Untested
+<br>*Playstation DualSense* (PlaystationDualsense folder) - Untested
 
 # Stable versions
+<br>**Xbox S Controller**
 <br>ver18.py - lacks a few keys, rest is hard-coded
 <br>ver21.py - allows for loading custom keymap from whisk_keymap.conf, if not found - loads the hard-coded keys
 <br>**Versions not included here are either unstable or lacking in features**
