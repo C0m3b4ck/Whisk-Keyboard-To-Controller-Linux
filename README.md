@@ -1,4 +1,5 @@
 # Whisk-Keyboard-To-Controller-Linux ![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/Whisk-Keyboard-To-Controller-Linux/total)
+<br><b>🇪🇺🇪🇺🇪🇺Made in Europe🇪🇺🇪🇺🇪🇺
 Keyboard keypresses translated into controller movements. Useful when coupled with emulators if you don't have a controller. Intended for Linux.
 <br>
 <br>***Currently supporting:***
